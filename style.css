@@ -10,18 +10,23 @@
     font-family: "Poppins", sans-serif;
     background-color: #003893;
     color: white;
-    padding-top: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 335px; 
-    width: 1440px; 
-    margin: auto; 
+    padding: 70px 50px; 
+    width: 100%;              
+    box-sizing: border-box; 
+    flex-wrap: wrap;    
+    gap: 20px;          
 }
 
+.container1{
+    flex: 1;            
+    min-width: 250px;   
+    box-sizing: border-box;
+}
 
 h1{
     font-size: 44px;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .nyc{
@@ -73,7 +78,10 @@ h1{
     gap: 10px;
     font-weight: 300;
     font-size: 18px;
-    padding-left: 0;     
+    padding-left: 0; 
+    flex: 1;
+    min-width: 250px;
+    box-sizing: border-box;
 }
 
 .connect{
