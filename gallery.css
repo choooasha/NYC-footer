@@ -1,0 +1,61 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    padding: 11px 28px;
+    background-color: #DC241F;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    padding: 15px;
+}
+
+.container1 .filter {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    
+}
+
+.container1 .filter.active {
+   border-bottom: #DC241F 3px solid;
+}
+
+
+.gallery {
+    column-count: 3;
+    column-gap: 20px;
+    padding: 20px
+}
+
+.gallery img {
+  width: 100%;         
+  border-radius: 10px;  
+  margin-bottom: 20px;  
+  display: block;       
+  break-inside: avoid;
+  padding: 15px;  
+}
+
+
+.pics.hide {
+    display: none;
+}
+
+.pics.show {
+    display: block;
+}
